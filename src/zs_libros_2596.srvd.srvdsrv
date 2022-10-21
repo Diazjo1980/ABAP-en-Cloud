@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition - Libros'
+define service ZS_LIBROS_2596 {
+  expose ZC_LIBROS_2596 as libros;
+  expose ZC_CLIENTES_2596 as clientes;
+}
